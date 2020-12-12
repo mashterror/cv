@@ -5,27 +5,178 @@
   <meta charset="utf-8">
   <!-- START OF title-->
   <title>MASH TERROR</title>
-</head>
-<!-- end of title-->
 
-<!-- start of picture segment-->
+  <style>
+    body {
+      font-family: `handlee`, cursive;
+      background-color: #EAF6F6;
+      padding: 40PX;
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
+    }
+
+    .img-circle {
+      border: 3px solid white;
+      border-radius: 50%;
+    }
+
+    .section {
+      background-color: #fff;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+
+    #header {
+      background-image: url(head.jpeg);
+      background-size: cover;
+    }
+
+    #header img {
+      display: block;
+      width: 80px;
+      height: 80px;
+      margin: auto;
+    }
+
+    #header p {
+      font-size: 30pt;
+      color: white;
+      padding-top: 15px;
+      margin: 0;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 15px;
+      color: #20bcd5;
+      text-align: center;
+      padding: 18px 0 18px 0;
+      margin: 0 0 10px 0;
+    }
+
+    h3 {
+      font-size: 15px;
+      color: #20bcd5;
+      text-align: center;
+      padding: 18px 0 18px 0;
+      margin: 0 0 10px 0;
+    }
+
+  .quote {
+      font-size: 12pt;
+      text-align: right;
+      margin-top: 10px;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    table, th, td{
+      border: 3px solid #cecece;
+      border-collapse: collapse;
+      text-align:center;
+      table-layout: fixed;
+    }
+
+    li {
+      margin-bottom: #f36f48;
+      font-weight: bold;
+    }
+
+    progress {
+      width: 70%;
+      height: 20px;
+      color: #3fb6b2;
+      background: #efefef;
+    }
+
+    progress::-webkit-progress-bar {
+      background: #efefef;
+    }
+
+    progress::-webkit-progress-value {
+      background: #3fb6b2;
+    }
+
+    progress::-moz-progress-bar {
+      color: #3fb6b2;
+      background: #efefef;
+    }
+
+    iframe,
+    audio {
+      display: block;
+      margin:0 auto;
+      border: 3px solid #3fb6b2;
+    }
+
+    form {
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .submit {
+      background-color: #3fb6b2;
+      padding: 12px 45px;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #ffffff;
+      border: none;
+      outline: none;
+      margin: o;
+      font-weight: bold;
+    }
+
+    .submit:hover {
+      background-color: #43a09d;
+    }
+
+    textarea {
+      height: 100px
+    }
+
+    input,
+    textarea {
+      margin-bottom: 10px;
+      font-size: 11pt;
+      padding: 15px 10px 10px;
+      border: 1px solid #cecece;
+      background-color: #efefef;
+      color: #787575;
+      border-radius: 5px;
+      width: 70%;
+      outline: none;
+    }
+  </style>
+
+
+</head>
+<!-- s tart of  picture segment-->
 
 <body>
-  <table cellspacing="50">
-    <tr>
-      <td><img src="mash.jpg" alt="MASH PROFILE PICTURE"></td>
-      <td>
-         <h1> MASH TERROR </H1>
-        <p><em><STRONG><a href="https:www.pubgmobile.com">PUBG MOBILE</a></STRONG> AND <STRONG><a href="https:www.pubgmlite.com">PUBG MOBILE LITE</a></STRONG> PLAYER</em></p>
-        <p>i am a noob pubg mobile and lite player, i play lite mostly cause mobile lags a lot on my phone </p>
-        <P class="quote">"I AM SO HAPPY TO BE A GAMER"</P>
-      </td>
-      </tr>
-  </table>
-  <!-- end of picture segment-->
-<hr>
-  <!-- about me-->
+  <div id="header" class="section">
+    <img alt="" class="img-circle" src="mashdp.png">
+    <p>MASH TERROR</p>
+  </div>
 
+  <!-- end of picture segment-->
+
+  <!-- about me-->
+  <div class="section">
+    <h1> ABOUT ME </H1>
+    <p>
+      <em><STRONG><a href="https:www.pubgmobile.com">PUBG MOBILE</a></STRONG> AND <STRONG><a href="https:www.pubgmlite.com">PUBG MOBILE LITE</a></STRONG> PLAYER</em>
+    </p>
+    i am a noob pubg mobile and lite player, i play lite mostly cause mobile lags a lot on my phone
+    </p>
+    <P class="quote">"I AM SO HAPPY TO BE A GAMER"</P>
+  </div>
   <!-- end of about me segment-->
 
   <!-- stats segment-->
@@ -54,23 +205,23 @@
     <h3>ACHIEVEMENT</h3>
     <ul>
       <li>most liked <br>
-        <progress value="0" max="100">80%</progress>
+        <progress min="0" max="100" value="100"></progress>
       </li>
       <li>weapon master <br>
-        <progress value="0" max="100">80%</progress>
+        <progress min="0" max="100" value="100"></progress>
       </li>
       <li>pacifist <br>
-        <progress value="0" max="100">80%</progress>
+        <progress min="0" max="100" value="100"></progress>
       </li>
       <li>winner of AOM 1 <br>
-        <progress value="0" max="100" value="100"></progress>
+        <progress min="0" max="100" value="100"></progress>
       </li>
     </ul>
   </div>
   <!-- end of achivement-->
 
   <!--start of DETAILED stats-->
-  <div>
+  <div class="section">
     <h3>DETAILED STATS</h3>
     <table border="1">
       <thead>
@@ -88,6 +239,18 @@
           <td>SEASON 5</td>
           <td>NULL</td>
         </tr>
+        <tr>
+          <td>SEASON 6</td>
+          <td>ACE</td>
+        </tr>
+        <tr>
+          <td>SEASON 7</td>
+          <td>CROWN 1</td>
+        </tr>
+        <tr>
+          <td>SEASON 8</td>
+          <td>ACE</td>
+        </tr>
       </tbody>
     </table>
     <!-- end of detailed stats-->
@@ -95,7 +258,7 @@
   <!-- start of my media-->
   <div class="section">
     <h1>MY MEDIA</h1>
-    <iframe height="150" width="300" src="https://youtu.be/GoeVarrgk8E"></iframe>
+    <iframe height="150" width="300" src="https://ypu.be/U3RYML9JJe8" allowfullscreen frameborder="0"></iframe>
   </div>
   <!-- END OF MY MEDIA-->
   <!-- START OF CONTACT ME-->
@@ -108,5 +271,6 @@
       <input type="submit" value="SEND" class="submit" />
     </form>
   </div>
+</body>
 
 </html>
